@@ -1,5 +1,7 @@
 # FreeSpeech
 
+![Welcome Screen](images/logo.webp)
+
 ### Our project created for NatHacks 2024: FreeSpeech  
 **Giving individuals the ability to talk without talking!**
 
