@@ -8,7 +8,7 @@
 ---
 
 ## Overview
-FreeSpeech is an innovative app developed for NatHacks 2024 that harnesses EEG data from a Muse2 headset. It processes EEG motor signals using signal processing techniques such as Butterworth Band Filtering to seperate EEG waves into Delta, Beta, Theta, Alpha, and Gamma. We then use machine learning models such as Random Forest and XGBoosting to determine if the users is thinking "left," "right," or "blinking." These inputs control a **Tkinter-based GUI**, allowing users to select corresponding letters and craft messages.
+FreeSpeech is an innovative app developed for NatHacks 2024 that harnesses EEG data from a Muse2 headset. It processes EEG motor signals using signal processing techniques such as Butterworth Bandpass Filtering to seperate EEG waves into Delta, Beta, Theta, Alpha, and Gamma. We then use machine learning models such as Random Forest and XGBoosting to determine if the users is thinking "left," "right," or "blinking." These inputs control a **Tkinter-based GUI**, allowing users to select corresponding letters and craft messages.
 
 ---
 
