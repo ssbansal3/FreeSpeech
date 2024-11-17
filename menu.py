@@ -1,6 +1,5 @@
 import tkinter as tk
 
-
 class MenuPage:
     """A class to create the menu page."""
 
@@ -22,7 +21,7 @@ class MenuPage:
         # Title Label
         label = tk.Label(
             self.root,
-            text="Menu Page",
+            text="Communicator",
             font=("Helvetica", 30, "bold"),
             fg="#FF377F",
             bg="#2b2b2b",
@@ -32,7 +31,7 @@ class MenuPage:
         # Instruction Prompt
         self.prompt = tk.Label(
             self.root,
-            text="Navigate using Left/Right keys and press Enter to confirm.",
+            text="Navigate using Left/Right signals and blink to confirm selection.",
             font=("Helvetica", 14),
             fg="white",
             bg="#2b2b2b",
@@ -191,7 +190,7 @@ class MenuPage:
         self.is_done = True
         self.panel_frame.pack_forget()
         self.prompt.config(
-            text="Your message is ready! Press Enter to exit or Esc to return to the main menu.",
+            text="Your message is ready! Blink to complete run.",
         )
         self.message_box.config(state="normal")
         self.root.unbind("<Left>")
