@@ -20,3 +20,27 @@ FreeSpeech is an innovative app developed for NatHacks 2024 that harnesses EEG d
    ```bash
    pip install muselsl
 
+
+## Running the Application
+
+1. Connect the Muse2 headset to the **Petal Metrics** software.
+2. Navigate to `test_gui/main.py`.
+3. Run the application:
+   ```bash
+   python main.py
+
+
+### Use the Following Controls:
+
+- **Blink**: Select/Enter.  
+- **Think "left"**: Move left.  
+- **Think "right"**: Move right.  
+
+Continue navigating until you form your desired word!
+
+---
+
+### Compatibility
+
+To use this application, ensure you have access to a **Muse2 headset**.
+
